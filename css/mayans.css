@@ -1,0 +1,318 @@
+@charset "utf-8";
+*{ 
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+body{
+	background:linear-gradient(90deg, #900, #fff, #030, #000);
+	background-size:100% 100%;
+				
+	}
+
+#portada{
+	width:100%;
+	border-bottom:2px solid black;
+	}
+
+	/*TABLA Y TWITTER*/
+
+#tablaYtwitter{
+	width:90%;
+	margin: 0 auto;
+	}
+#barraTwitter{
+	display:inline-block;
+	width:25%;
+	margin:10% auto;
+	margin-left:3%;
+	}
+.twitter-timeline{
+	position:absolute;
+	margin: auto auto;
+	width:100%;
+	}
+
+	/*TABLA*/
+#tabla{
+	border:none;
+	width:70%;
+	height:100%;
+	margin:0 auto;
+	font-family:charline;
+	display:inline-block;
+	float:left;
+	font-size:0.9em;
+	}
+	
+#tabla table{
+	width:95%;
+	margin:2% auto;
+	color:white;
+	background:#000;
+	
+	}
+
+	/*CABECERA INTRO*/
+#tabla thead tr th {
+	padding:10px;
+	text-align:center;
+	}
+#tabla thead tr th h1{
+	color:black;
+	font-family:CarnevaleeFreakshow;
+	font-size:3.1em;
+}
+
+	/*TBODY*/
+#tabla tbody tr td table tr th h2{
+	color:#900;
+	font-family:CarnevaleeFreakshow;
+	font-size:1.8em;
+	text-shadow:1px 1px 1px #fff;	
+	}
+#tabla tbody tr td#trailer{
+	margin:auto auto;
+	}
+#tabla tbody tr td#trailer video{
+	width:100%;
+	}
+	
+#sinopsis{
+	padding:1%;
+	text-align:center;
+	}
+#tabla .datos td{
+	border:1px solid #fff;
+	padding:1%;
+	background:#000;
+	color:#fff;
+	}
+#tabla .datos td:first-of-type{
+	padding:1%;
+	text-align:center;
+	font-weight:bold;
+	}
+	
+	/*TFOOT*/	
+		
+#enlaceT1 {
+	text-align:center;
+	padding:20px;
+	}
+	
+#enlaceT1 a{
+	text-decoration:none;
+	color:#fff;
+	font-family:CarnevaleeFreakshow;
+	font-size:1.3em;
+	padding:20px 30px;
+	background:#900;
+	border:1px solid #000;
+	border-style:outset;
+	box-shadow:2px 2px 4px #000;
+	box-shadow:0px -2px 4px #000;
+	}
+
+
+	/*GALERIA MAYANS*/
+	
+.acordeon {
+  	width: 100%;
+  	max-width: 1140px;
+  	height: 550px;
+  	overflow: hidden;
+  	margin: 20px auto;
+}
+.acordeon ul {
+ 	 width: 100%;
+  	display: table;
+  	table-layout: fixed;
+ 	 margin: 0;
+ 	 padding: 0;
+}
+.acordeon ul li {
+	list-style-type: none;
+ 	display: table-cell;
+  	top:0px;
+  	vertical-align: top;
+  	position: relative;
+  	width: 16.666%;
+  	height: 520px;
+  	background-repeat: no-repeat;
+  	background-position: top center;
+  	transition: all 500ms ease;
+}
+.acordeon ul li div {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+.acordeon ul li div a {
+  display: block;
+  height: 520px;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  vertical-align: bottom;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+.acordeon ul li div a * {
+  opacity: 0;
+  margin: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.acordeon ul li div a h2 {
+  font-family:CarnevaleeFreakshow;
+  text-overflow: clip;
+  font-size: 24px;
+  font-weight:bolder;
+  text-transform: uppercase;
+  margin-left: 8px;
+  top: 5px;
+  color:#900;
+  text-shadow:1px 1px 0px #000;
+}
+.acordeon ul li div a p {
+  font-family:charline;
+  top:8px;
+  font-size: 13.5px;
+  color:#900;
+  margin-left:8px;
+}
+.acordeon ul li:nth-child(1) {
+  background-image: url("../imagenes/mayans/foto1.jpg");max-height:400px;
+}
+.acordeon ul li:nth-child(2) {
+  background-image: url("../imagenes/mayans/foto2.jpg");max-height:400px;
+}
+.acordeon ul li:nth-child(3) {
+  background-image: url("../imagenes/mayans/foto3.png");max-height:400px;
+}
+.acordeon ul li:nth-child(4) {
+  background-image: url("../imagenes/mayans/foto4.jpg");max-height:400px;
+}
+.acordeon ul li:nth-child(5) {
+  background-image: url("../imagenes/mayans/foto5.jpg");max-height:400px;
+}
+.acordeon ul li:nth-child(6) {
+  background-image: url("../imagenes/mayans/foto6.jpg");max-height:400px;
+}
+.acordeon ul:hover li {
+  width: 16%;
+}
+.acordeon ul:hover li:hover {
+  width: 100%;
+}
+
+.acordeon ul:hover li:hover a * {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+ 
+ 
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+ 
+  .acordeon {
+    height: auto;
+	width:100%;
+  }
+  .acordeon ul li, .acordeon ul li:hover, .acordeon ul:hover li, .acordeon ul:hover li:hover {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+
+/*ENLACES TEMPORADA 1*/
+
+.titulo{
+	width:60%;
+	margin:0% auto;
+	display:block;
+	}
+
+.temporada1{
+	width:60%;
+	margin:0 auto;
+	}
+.temporada1 h1{
+	font-family:CarnevaleeFreakshow;
+	padding-bottom:5%;
+	font-size:3em;
+	color:#900;
+	text-shadow:-1px 1px 0px #000, 
+				-2px 2px 0px #000, 
+				-3px 3px 0px #000, 
+				-4px 4px 0px #000; 
+	}
+.temporada1 tbody td{
+	border:1px solid #900;
+	border-collapse:collapse;
+	padding:4px;
+	}
+.temporada1 small, .temporada1 p{
+	font-family:charline;
+	}
+.temporada1 h2{
+	font-family:WhiteOnBlack;
+	font-size:1.5em;
+	}
+.temporada1 small{
+	font-weight:bold;
+	}
+
+.temporada1 tbody tr td:nth-child(2){
+	width:40px;
+	background:#900;
+	border-bottom: 2px solid #000;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	border-style:outset;
+	
+	}
+.temporada1 tbody tr td:nth-child(2){
+	border-top:2px solid #000;
+	border-style:outset;
+	}
+	
+.temporada1 tbody tr td img{
+	padding:20px;
+	}
+.temporada1 tfoot tr td img#logo {
+	display:block;
+	width:35%;
+	margin:9% auto;
+	border-radius:50%;
+	background:blue;
+	}
+	
+	/*ANCLA INICIO*/
+
+#irAinicio a{
+	text-decoration:none;
+	}

@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ 
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+/*-----Menu navegacion responsive-----*/
+
+#cabecera{
+	width:100%;
+	margin: 0px auto;
+	background:#B32428;
+/*background: linear-gradient(#B32428, #B32428, #FFF);*/
+	}
+#btn-menu{
+	display:none;
+	}
+header label{
+	display:none;
+	width:50px;
+	heigth:50px;
+	padding:10px;	
+	border-right:1px solid #fff;
+	}
+header label:hover{
+	cursor:pointer; /*cursor mano*/
+	background: rgba(0,0,0,0.3);
+	}
+.menu ul{
+	list-style:none; /*Quita los puntos de la lista*/
+	display:flex; 
+/*Flex hace que los li que esten dentro de ul sean cajas flexibles y por defecto los coloca en fila*/
+/*La propiedad de direccion por defecto de flex es flex-direction:row(fila)*/
+	font-family:motorway;
+	justify-content: center; /*--centra el contenido de ul(es flexible)*/
+	}
+.menu li{
+	/*flex-grow:1;*/ /*Afecta a cada hijo del flex-box(ul)*/
+	text-align:center;
+	border-right: 1px solid #fff;
+	width:120px;
+	}
+.menu li:last-of-type{
+	border-right: none;
+	}
+.menu li:hover{
+	background: rgba(0,0,0,0.3); /*transparencia 0.3*/
+	transition: all 0.3s;
+	}
+.menu li a{
+	display:block;
+	padding:15px 20px; /*15px vertical y 20px horizontal*/
+	color:#fff;
+	text-decoration:none; /* Quita subrayado */
+	font-variant:small-caps; 
+	font-weight: bold;
+	font-size:20px;
+	}
+
+	/*-----Menu vertical al hacerse pequeña la resolución NO TOCAR-----*/
+	
+@media (max-width:780px){ 
+/*media es como el IF*/ 
+/*En 780px hacia abajo ocurrirá lo que pongamos entre {}*/
+	header label{
+		display:block;
+		}
+	.menu{
+		position:absolute; /*Para que salga abajo(se sale del flujo)*/
+		background:#B32428;
+		margin-left:0px;
+		transition: all 0.5s;
+		transform: translateX(-150px);
+		/*margin-left:-25%;*/
+/* margin -25% --> Para que desaparezca el menu y nos aparezca después:al pinchar en iconoMenu*/
+		}
+	.menu ul{
+		display: block; /*o flex-direction:column(para que los li sigan siendo flexibles*/
+		}
+	.menu li{
+		border-top: 1px solid #fff;
+		}
+	#btn-menu:checked ~ .menu {
+		transform: translateX(0px);
+/*el checkbox de input tiene como seudoclase checked*/
+/*selector avanzado ~: VIRGULILLA o tilde;*/
+/*cuando el btn-menu este clickado(tenga la seudoclase checked) va a buscar en HTML desde btn-menu hasta encontrar la clase menu y la selecciona (-->todo el nav)*/
+/*Con margen --> quitamos el margen -25 que escondia el menu y hacemos que nos aparezca al clickar en el iconoMenu*/
+		}
+	.menu ul li ul{
+		left:100%; /*Para que salga el menu 100% por la izquierda*/
+		transform: translateY(-54px); /*Para poner submenu a la altura de la opción del listado de donde se abre el menú*/	
+		} 
+	.iconoMoto{
+		display:none; /* Para que desaparezcan las motos*/
+		}
+	}
+	
+	/*-----Submenu-----*/
+.menu ul ul {
+		display:none;
+		}
+.menu ul li:hover ul {
+		display:block;
+		position: absolute; /*Para que se salga de la maquetacion y se quite el fondo sobrante: se rompe el flujo*/
+		background:#B32428;
+		}
+		
+	/*-------------------------------------------------*/
+
+		/*COLUMNA DERECHA DE REPRODUCTOR DE MÚSICA*/
+		
+aside {
+		border:1px solid black;
+		width:300px;
+		float:right;
+		margin-top:10px;
+		z-index:2
+	}
+#reproductorMusic{
+	margin-top:10px;
+	margin-bottom:0;
+	}
+h1, h2, h3, h4{
+	font-family:CarnevaleeFreakshow ;
+	}
+#cabeceraMusica{
+	text-align:center;
+	}
+	/*SECTION*/
+#portadaPersonajes{
+	width:100%;
+	height:100%;
+	}

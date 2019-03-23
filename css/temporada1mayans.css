@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+header{
+	position:relative;
+	text-align:center;
+	z-index:9999;
+	}
+	
+#volverAinicio{
+	position:relative;
+	top:40px;
+	width:120px;
+	border-radius:50%;
+	z-index:100;
+		}
+
+body{
+	text-align:center;
+	}
+
+  div{
+  	background-size:200%;
+  	background-position:0 50%;
+  	height:100%;
+  	position:fixed;
+  	top:0;
+  	width:100%;
+  	pointer-events:none;
+  }
+  
+#imagen{
+	background-image:url('../imagenes/fondos/niebla.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	z-index:-1;
+}
+  
+ 
+  #layer1{
+
+  background: repeating-linear-gradient(
+  90deg,
+  rgba(236, 240, 241,.0),
+  rgba(236, 240, 241,.6),
+  rgba(236, 240, 241,.0));
+  animation: layer1 10s linear infinite alternate;
+  }
+  
+
+  #layer2{
+
+  background: repeating-linear-gradient(
+  90deg,
+  rgba(236, 240, 241,.0),
+  rgba(236, 240, 241,.6),
+  rgba(236, 240, 241,.0));
+            );
+  animation: layer2 15s linear infinite alternate;
+  }
+  
+  /*Animaciones*/
+  @keyframes layer1 {
+    0% {background-position: 1000px 0;}
+    50% {background-position: 500px 0;}
+    100% {background-position: 0 0;}
+  } 
+  @keyframes layer2 { 
+    0% {background-position: 0 0%;}
+    50% {background-position: 500px 0%;}
+    100% {background-position: 1000px 0;}
+  } 
+  
+
+ #episodio{
+	width:350px;
+	height:250px;
+	position:relative;
+	vertical-align:center;
+	margin: 100px auto;
+	padding:5px;
+	/*background:#900;*/
+
+	}
+	
+#episodio video{
+	width:100%;
+	height:100%;
+	position:relative;
+	z-index:80;
+	vertical-align:center;
+	} 
+
+

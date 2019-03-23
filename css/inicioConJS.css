@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ 
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+	
+	/*SLIDER*/
+	
+.contenedor{
+	position: relative;
+	width: 650px;
+	height: 300px;
+	margin-top:1%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: black;
+	border-radius: 15px;
+	}
+.imagen{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	opacity: 0;
+	}
+.imagen img {
+		height: 100%;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		}
+.texto {
+		font-family:Charline;
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		top:82%;
+		color: white;
+		font-weight: bold;
+		}
+		
+.contenedor > a, .contenedor .boton a{
+			position: absolute;
+			text-decoration: none;
+			color: white;
+			font-size: 36px;
+			top : 50%;
+			transform: translateY(-50%);
+		}
+		
+.siguiente {
+			left: 97%;
+		}
+		
+.boton {
+		position: absolute;
+		top: 5%;
+		left: 95%;
+		}
+		
+.puntos {
+		position: absolute;
+		top: 93%;
+		width: 100%;
+		text-align: center;
+		}
+.punto {
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+		background-color: white;
+		border-radius: 50%;
+		margin-right: 5px;
+		}
+.punto:hover {
+		cursor: pointer;
+		background-color: gray;
+		}
+.contenedor a:hover {
+				color: gray;
+		}
+		
+.actual {
+		visibility: visible;
+		opacity: 1;
+		transition: visibility 2s, opacity 2s;
+		}
+.activo {
+		background-color: gray;
+		}
+	
+	/*INTERCAMBIO DE IMÁGENES*/
+
+.imagen1{
+	background-image:url("../imagenes/fondos/titulo.jpg");
+	width:850px;
+	height:315px;
+	margin:1% auto;
+	position:relative;
+	border-box:5px solid #fff;
+	}
+.imagen2{
+	background-image:url("../imagenes/fondos/Sons_Of_Anarchy.jpg");
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	max-width:100%;
+	
+	resize:horizontal;
+	overflow:hidden;
+	}
+	
+	/*Para dibujar la barra:pseudoelemento*/
+.imagen2:before{
+	content:"\2194";
+	color:#fff;
+	font-size:25px;
+	background:rgba(0,0,0,0.7);
+	height:100%;
+	line-height:315px; /*Alto de línea de imagen1*/
+	
+	position:absolute;
+	top:0;
+	right:0;
+	}
+	
+textarea{
+	opacity:0;
+	
+	width:24px;
+	height:10px;
+	position:relative;
+	top:50%;
+	
+	transform: scaleY(35);
+	cursor: e-resize;
+	}
+@media (max-width:780px){
+	
+	.contenedor{
+		width:100%;
+		}
+	
+	}

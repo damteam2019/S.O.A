@@ -1,0 +1,131 @@
+*{ 
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+body{
+		background-image: url("../imagenes/fondos/fondoFicha3.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%; /*100% del ancho de la ventana y el 100% del alto de la ventana. Para que sea responsive*/
+		background-attachment: fixed;
+		font-family:Charline;
+		color: white;		}
+	#divPrincipal{
+	
+		margin-left:10%;
+		margin-right:10%;
+		padding-bottom:10%;
+	}
+	
+#articulo1{
+
+	background-image: url("../imagenes/fondos/fondoFicha1.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%; /*100% del ancho de la ventana y el 100% del alto de la ventana. Para que sea responsive*/
+		background-attachment: fixed;
+		margin-right:3%;
+		margin-bottom:6%;
+	
+}
+#artilo1 p{color:#20A66D;}
+#articulo2{	background-image: url("../imagenes/fondos/fondoFicha2.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%; /*100% del ancho de la ventana y el 100% del alto de la ventana. Para que sea responsive*/
+		background-attachment: fixed;
+	margin-right:3%;
+		margin-bottom:6%;
+}
+#articulo3{	background-image: url("../imagenes/fondos/fondoFicha4.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%; /*100% del ancho de la ventana y el 100% del alto de la ventana. Para que sea responsive*/
+		background-attachment: fixed;
+		padding:1%;
+	margin-right:3%;
+		margin-bottom:6%;}
+	section{
+		
+		float:left;
+	width:70%;
+height:100%;
+margin-top:4%;
+margin-bottom:8%;
+display:inline;
+	}
+	section h2{
+		text-align:center;
+		font-size:40px;
+		font-family:CarnevaleeFreakshow;
+		color:#970C0C;
+		}
+		aside h2{text-align:center;
+		font-size:40px;
+		font-family:CarnevaleeFreakshow;
+		color:#970C0C;}
+#divPrincipal{margin-left:10%;
+		margin-right:10%;
+		padding-bottom:10%;
+		}
+td{
+padding-top:1%;
+padding-left:2%;}	
+.celdaizquierda{
+color :red;
+width:30%;}
+aside{
+	margin-top:5%;
+	width:30%;
+float:right;}
+video{width:100%;}
+
+
+p{padding:3%;}
+h2{
+margin-bottom:3;}
+table{
+margin-top:3%;}
+
+
+
+
+
+
+.acordeon{
+	
+	width:70%;
+	margin:5% auto;
+	}
+
+.acordeon input{
+	display:none;
+	}	
+	
+.tituloTemporada{
+	display:block;
+	padding:10px;
+	background:#900;
+	color:#fff;
+	font-size:2em;
+	cursor:pointer;
+	border-bottom:1px solid #fff;
+	text-align:center;
+	}
+.tituloTemporada:hover{
+	background:(0,0,0, 0.8);
+	}
+.contenidoAcordeon{
+	height:0;
+	overflow:hidden; /*Porq el contenido (ul) no tiene altura*/
+	margin:0;
+	transition:all 1.5s;
+	}
+.acordeon input:checked ~ .contenidoAcordeon{
+	height: auto;
+	margin:2% 10%;
+	
+	}
+
+
+
+

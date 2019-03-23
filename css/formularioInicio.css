@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ 
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+		
+	/*-------------------------------------------------*/
+
+h1{
+	font-family:CarnevaleeFreakshow ;
+	font-size:3em;
+	text-align:center;
+	margin-top:10%;
+	padding-top:10%;
+	margin-bottom:15px;
+	}
+
+
+	/*FORMULARIO REGISTRO*/
+	section{
+	width:60%;
+	height:80%;
+	margin:auto;
+	background: -moz-linear-gradient(top, rgba(36,2,2,0.81) 0%, rgba(250,250,250,0.81) 0%, rgba(10,5,5,0.81) 0%, rgba(8,5,5,0.84) 14%, rgba(64,10,17,0.87) 31%, rgba(64,3,14,0.87) 33%, rgba(179,7,36,0.94) 67%, rgba(186,2,27,0.95) 76%, rgba(194,6,22,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(36,2,2,0.81)), color-stop(0%, rgba(250,250,250,0.81)), color-stop(0%, rgba(10,5,5,0.81)), color-stop(14%, rgba(8,5,5,0.84)), color-stop(31%, rgba(64,10,17,0.87)), color-stop(33%, rgba(64,3,14,0.87)), color-stop(67%, rgba(179,7,36,0.94)), color-stop(76%, rgba(186,2,27,0.95)), color-stop(100%, rgba(194,6,22,1)));
+background: -webkit-linear-gradient(top, rgba(36,2,2,0.81) 0%, rgba(250,250,250,0.81) 0%, rgba(10,5,5,0.81) 0%, rgba(8,5,5,0.84) 14%, rgba(64,10,17,0.87) 31%, rgba(64,3,14,0.87) 33%, rgba(179,7,36,0.94) 67%, rgba(186,2,27,0.95) 76%, rgba(194,6,22,1) 100%);
+background: -o-linear-gradient(top, rgba(36,2,2,0.81) 0%, rgba(250,250,250,0.81) 0%, rgba(10,5,5,0.81) 0%, rgba(8,5,5,0.84) 14%, rgba(64,10,17,0.87) 31%, rgba(64,3,14,0.87) 33%, rgba(179,7,36,0.94) 67%, rgba(186,2,27,0.95) 76%, rgba(194,6,22,1) 100%);
+background: -ms-linear-gradient(top, rgba(36,2,2,0.81) 0%, rgba(250,250,250,0.81) 0%, rgba(10,5,5,0.81) 0%, rgba(8,5,5,0.84) 14%, rgba(64,10,17,0.87) 31%, rgba(64,3,14,0.87) 33%, rgba(179,7,36,0.94) 67%, rgba(186,2,27,0.95) 76%, rgba(194,6,22,1) 100%);
+background: linear-gradient(to bottom, rgba(36,2,2,0.81) 0%, rgba(250,250,250,0.81) 0%, rgba(10,5,5,0.81) 0%, rgba(8,5,5,0.84) 14%, rgba(64,10,17,0.87) 31%, rgba(64,3,14,0.87) 33%, rgba(179,7,36,0.94) 67%, rgba(186,2,27,0.95) 76%, rgba(194,6,22,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#240202', endColorstr='#c20616', GradientType=0 );
+	}
+form {
+	
+	width:450px;
+	height:500px;
+	/*height:40%;*/
+	margin-left:20% ;
+	margin-right:20% ;
+	}
+input{
+	 background-color:9D0707;
+	width:100%;
+	padding:10px;
+	font-size:20px;
+	margin:2% 0;
+	}
+body{
+	background-image: url("../imagenes/galeria/carretera5.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%; /*100% del ancho de la ventana y el 100% del alto de la ventana. Para que sea responsive*/
+	background-attachment: fixed;
+	
+	}
+
+label{
+	color:white;
+	font-family:Charline; 
+	}
+h1{
+	color :#9D0707;
+	padding-left:5%;
+	}
+#pagado{padding-left:0%; /*????????*/
+	}
+fieldset{
+	border:none;
+}
+a{
+	padding-left:7%;
+	text-decoration:none;
+	color:#FFFFFF;
+	font-family:Charline; 
+	}
+	#boton{
+	font-family:CarnevaleeFreakshow;
+	background:#B32428;
+	color:#fff;
+	padding:20px;
+	}
+
+

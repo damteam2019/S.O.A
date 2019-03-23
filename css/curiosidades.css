@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(noticias.css);
+
+*{ 
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+h1, h2, h3, h4{
+	font-family:CarnevaleeFreakshow;
+	}
+h1{
+	font-size:3em;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:15px;
+	}
+h2{
+	color:#A51515;
+	text-align:center;
+	font-size:8em;
+	margin-top:0px;
+	margin-bottom:5%;
+	}
+h3{
+	font-size:1.5em;
+	}
+body{
+	
+	background-image: url("../imagenes/fondos/fondoCuriosidades4.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%; /*100% del ancho de la ventana y el 100% del alto de la ventana. Para que sea responsive*/
+		background-attachment: fixed;}
+.contenedor{
+	display:flex;
+	color:black;
+	font-family:BirdsofParadise;
+	font-size:35px;
+	width:800px;
+	height:650px;
+	
+	line-height:40px;
+	position:absolute;
+	top:20;
+	right:10;
+	left:10;
+	bottom:0;
+	margin-left:20%;
+
+	overflow:hidden;
+
+
+	}
+	.contenedor li img {
+	
+	height:250px;
+	margin-top:18%;
+	margin-bottom:3%;}
+	.contenedor li{diplay:inline;
+	margin-top:5%;
+	height:650px;}
+	.contenedor img{float: left;}
+	.contenedor p{
+		
+		color:white;
+		background-image: url("../imagenes/fondos/fondoCuriosidades2.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%; /*100% del ancho de la ventana y el 100% del alto de la ventana. Para que sea responsive*/
+		background-attachment: fixed;
+		float:right;}
+	.contenedor ul{ list-style:none;
+	padding-left:10px;
+	animation:cambiar 50s infinite;
+	}
+	.contenedor ul,p{margin:0;}
+	@keyframes cambiar{
+		0%{margin-top:0;}
+		0%{margin-top:0;}
+		8%{margin-top:0;}
+		10%{margin-top:-650px;}
+		18%{margin-top:-650px;}
+		20%{margin-top:-1300px;}
+		28%{margin-top:-1300px;}
+		30%{margin-top:-2000px;}
+		38%{margin-top:-2000px;}
+		40%{margin-top:-2750px;}
+		48%{margin-top:-2750px;}
+		50%{margin-top:-3400px;}
+		58%{margin-top:-3400px;}
+		60%{margin-top:-4050px;}
+		68%{margin-top:-4050px;}
+		70%{margin-top:-4750px;}
+		78%{margin-top:-4750px;}
+		80%{margin-top:-5450px;}
+		88%{margin-top:-5450px;}
+		90%{margin-top:-6150px;}
+		99%{margin-top:-6150px;}
+		100%{margin-top:0;}
+	}
+
+
+	
+	

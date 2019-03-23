@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ 
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+/*-----Menu navegacion responsive-----*/
+H1{color:#970C0C;	
+font-family:motorway;
+	font-weight: bold;
+	font-size:100px;
+	text-align:center;
+	}
+
+body{  background: rgba(0,0,0,1);
+background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(15,2,0,1) 0%, rgba(31,29,29,1) 0%, rgba(18,17,17,1) 0%, rgba(28,28,28,1) 47%, rgba(26,25,26,1) 51%, rgba(26,26,26,1) 51%, rgba(26,26,26,1) 67%, rgba(15,15,15,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(0%, rgba(15,2,0,1)), color-stop(0%, rgba(31,29,29,1)), color-stop(0%, rgba(18,17,17,1)), color-stop(47%, rgba(28,28,28,1)), color-stop(51%, rgba(26,25,26,1)), color-stop(51%, rgba(26,26,26,1)), color-stop(67%, rgba(26,26,26,1)), color-stop(100%, rgba(15,15,15,1)));
+background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(15,2,0,1) 0%, rgba(31,29,29,1) 0%, rgba(18,17,17,1) 0%, rgba(28,28,28,1) 47%, rgba(26,25,26,1) 51%, rgba(26,26,26,1) 51%, rgba(26,26,26,1) 67%, rgba(15,15,15,1) 100%);
+background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(15,2,0,1) 0%, rgba(31,29,29,1) 0%, rgba(18,17,17,1) 0%, rgba(28,28,28,1) 47%, rgba(26,25,26,1) 51%, rgba(26,26,26,1) 51%, rgba(26,26,26,1) 67%, rgba(15,15,15,1) 100%);
+background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(15,2,0,1) 0%, rgba(31,29,29,1) 0%, rgba(18,17,17,1) 0%, rgba(28,28,28,1) 47%, rgba(26,25,26,1) 51%, rgba(26,26,26,1) 51%, rgba(26,26,26,1) 67%, rgba(15,15,15,1) 100%);
+background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(15,2,0,1) 0%, rgba(31,29,29,1) 0%, rgba(18,17,17,1) 0%, rgba(28,28,28,1) 47%, rgba(26,25,26,1) 51%, rgba(26,26,26,1) 51%, rgba(26,26,26,1) 67%, rgba(15,15,15,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0f0f0f', GradientType=1 );
+}
+
+
+
+	/*--------------------UNIR FOTOS-----------------------------*/
+	
+					.unirfotos{
+			background: rgba(0,0,0,1);
+background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(15,2,0,1) 0%, rgba(31,29,29,1) 0%, rgba(18,17,17,1) 0%, rgba(28,28,28,1) 47%, rgba(26,25,26,1) 51%, rgba(26,26,26,1) 51%, rgba(26,26,26,1) 67%, rgba(15,15,15,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(0%, rgba(15,2,0,1)), color-stop(0%, rgba(31,29,29,1)), color-stop(0%, rgba(18,17,17,1)), color-stop(47%, rgba(28,28,28,1)), color-stop(51%, rgba(26,25,26,1)), color-stop(51%, rgba(26,26,26,1)), color-stop(67%, rgba(26,26,26,1)), color-stop(100%, rgba(15,15,15,1)));
+background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(15,2,0,1) 0%, rgba(31,29,29,1) 0%, rgba(18,17,17,1) 0%, rgba(28,28,28,1) 47%, rgba(26,25,26,1) 51%, rgba(26,26,26,1) 51%, rgba(26,26,26,1) 67%, rgba(15,15,15,1) 100%);
+background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(15,2,0,1) 0%, rgba(31,29,29,1) 0%, rgba(18,17,17,1) 0%, rgba(28,28,28,1) 47%, rgba(26,25,26,1) 51%, rgba(26,26,26,1) 51%, rgba(26,26,26,1) 67%, rgba(15,15,15,1) 100%);
+background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(15,2,0,1) 0%, rgba(31,29,29,1) 0%, rgba(18,17,17,1) 0%, rgba(28,28,28,1) 47%, rgba(26,25,26,1) 51%, rgba(26,26,26,1) 51%, rgba(26,26,26,1) 67%, rgba(15,15,15,1) 100%);
+background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(15,2,0,1) 0%, rgba(31,29,29,1) 0%, rgba(18,17,17,1) 0%, rgba(28,28,28,1) 47%, rgba(26,25,26,1) 51%, rgba(26,26,26,1) 51%, rgba(26,26,26,1) 67%, rgba(15,15,15,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0f0f0f', GradientType=1 );
+
+					
+width:90%;
+margin:3% auto;
+margin-bottom:0;
+					}
+#imagenSangre {width:100%;
+height:5%;
+margin-top:0;
+				}
+
+						
+.unirfotos ul{
+														
+background: rgba(0,0,0,1);
+background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(15,2,0,1) 0%, rgba(31,29,29,1) 0%, rgba(18,17,17,1) 0%, rgba(28,28,28,1) 47%, rgba(26,25,26,1) 51%, rgba(26,26,26,1) 51%, rgba(26,26,26,1) 67%, rgba(15,15,15,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(0%, rgba(15,2,0,1)), color-stop(0%, rgba(31,29,29,1)), color-stop(0%, rgba(18,17,17,1)), color-stop(47%, rgba(28,28,28,1)), color-stop(51%, rgba(26,25,26,1)), color-stop(51%, rgba(26,26,26,1)), color-stop(67%, rgba(26,26,26,1)), color-stop(100%, rgba(15,15,15,1)));
+background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(15,2,0,1) 0%, rgba(31,29,29,1) 0%, rgba(18,17,17,1) 0%, rgba(28,28,28,1) 47%, rgba(26,25,26,1) 51%, rgba(26,26,26,1) 51%, rgba(26,26,26,1) 67%, rgba(15,15,15,1) 100%);
+background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(15,2,0,1) 0%, rgba(31,29,29,1) 0%, rgba(18,17,17,1) 0%, rgba(28,28,28,1) 47%, rgba(26,25,26,1) 51%, rgba(26,26,26,1) 51%, rgba(26,26,26,1) 67%, rgba(15,15,15,1) 100%);
+background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(15,2,0,1) 0%, rgba(31,29,29,1) 0%, rgba(18,17,17,1) 0%, rgba(28,28,28,1) 47%, rgba(26,25,26,1) 51%, rgba(26,26,26,1) 51%, rgba(26,26,26,1) 67%, rgba(15,15,15,1) 100%);
+background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(15,2,0,1) 0%, rgba(31,29,29,1) 0%, rgba(18,17,17,1) 0%, rgba(28,28,28,1) 47%, rgba(26,25,26,1) 51%, rgba(26,26,26,1) 51%, rgba(26,26,26,1) 67%, rgba(15,15,15,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0f0f0f', GradientType=1 );
+
+height:50%;
+list-style:none; /*Quita los puntos de la lista*/
+display:flex; 
+justify-content: center;
+/*Flex hace que los li que esten dentro de ul sean cajas flexibles y por defecto los coloca en fila*/
+/*La propiedad de direccion por defecto de flex es flex-direction:row(fila)*/
+/*--centra el contenido de ul(es flexible)*/
+}
+.unirfotos li{
+									/*flex-grow:1;*/ /*Afecta a cada hijo del flex-box(ul)*/
+width:9%;
+margin-left:0.5%;
+}
+.unirfotos li:first-of-type{
+margin-left:0%;
+}
+.unirfotos img:hover{
+background: red; /*transparencia 0.3*/ /*transparencia 0.3*/
+transition: all 0.3s;
+z-index:2;
+}
+.unirfotos li img{
+width:100%;
+height:85%;
+display:block;
+padding:5px 5px;/*15px vertical y 20px horizontal*/
+z-index:1;
+}
+						
+p{margin-top:5%;}
+img{margin-top:30px;}
+#contenido{ color:white;
+background: rgba(8,8,8,1);
+background: -moz-linear-gradient(left, rgba(8,8,8,1) 0%, rgba(8,8,8,1) 0%, rgba(15,15,15,1) 1%, rgba(112,8,8,1) 34%, rgba(115,1,1,1) 52%, rgba(110,6,6,1) 53%, rgba(112,8,8,1) 53%, rgba(110,4,11,1) 70%, rgba(15,15,15,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(8,8,8,1)), color-stop(0%, rgba(8,8,8,1)), color-stop(1%, rgba(15,15,15,1)), color-stop(34%, rgba(112,8,8,1)), color-stop(52%, rgba(115,1,1,1)), color-stop(53%, rgba(110,6,6,1)), color-stop(53%, rgba(112,8,8,1)), color-stop(70%, rgba(110,4,11,1)), color-stop(100%, rgba(15,15,15,1)));
+background: -webkit-linear-gradient(left, rgba(8,8,8,1) 0%, rgba(8,8,8,1) 0%, rgba(15,15,15,1) 1%, rgba(112,8,8,1) 34%, rgba(115,1,1,1) 52%, rgba(110,6,6,1) 53%, rgba(112,8,8,1) 53%, rgba(110,4,11,1) 70%, rgba(15,15,15,1) 100%);
+background: -o-linear-gradient(left, rgba(8,8,8,1) 0%, rgba(8,8,8,1) 0%, rgba(15,15,15,1) 1%, rgba(112,8,8,1) 34%, rgba(115,1,1,1) 52%, rgba(110,6,6,1) 53%, rgba(112,8,8,1) 53%, rgba(110,4,11,1) 70%, rgba(15,15,15,1) 100%);
+background: -ms-linear-gradient(left, rgba(8,8,8,1) 0%, rgba(8,8,8,1) 0%, rgba(15,15,15,1) 1%, rgba(112,8,8,1) 34%, rgba(115,1,1,1) 52%, rgba(110,6,6,1) 53%, rgba(112,8,8,1) 53%, rgba(110,4,11,1) 70%, rgba(15,15,15,1) 100%);
+background: linear-gradient(to right, rgba(8,8,8,1) 0%, rgba(8,8,8,1) 0%, rgba(15,15,15,1) 1%, rgba(112,8,8,1) 34%, rgba(115,1,1,1) 52%, rgba(110,6,6,1) 53%, rgba(112,8,8,1) 53%, rgba(110,4,11,1) 70%, rgba(15,15,15,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#080808', endColorstr='#0f0f0f', GradientType=1 );
+								
+margin-left:15%;
+margin-right:15%;
+font-family:Charline;
+padding:3%;
+	}
+#contenido a {color:white;}
+#contenido p{text-align:justify;
+}
+
+
+										
+article{
+padding:3%;
+margin-top:5%;
+height:100%;}
+strong{font-size:25px;}
+	
+.imagenanimada:hover{
+		border-radius:50%;
+-webkit-border-radius:50%;
+box-shadow: 0px 0px 15px 15px black;
+-webkit-box-shadow: 0px 0px 15px 15px black;
+transform: rotate(360deg);
+transition:0.5s;
+-webkit-transform: rotate(360deg);
+}}
+.imagenanimada a:visited{text-decoration:none;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*-------------------------------------------------*/
+
+		
+		
+		
+		
+		/*COLUMNA DERECHA DE REPRODUCTOR DE MÚSICA*/
+		
+
+
+h1, h2, h3, h4{
+	font-family:CarnevaleeFreakshow ;
+	}
+
