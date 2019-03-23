@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+
+@font-face{
+	font-family:motorway; 
+	src:url(motorway.ttf);
+}
+@font-face{
+	font-family:WhiteOnBlack; 
+	src:url(WhiteOnBlack.ttf);
+}
+
+@font-face{
+	font-family:CarnevaleeFreakshow; 
+	src:url(CarnevaleeFreakshow.ttf);
+}
+
+@font-face{
+	font-family:Charline; 
+	src:url(Charline.otf);
+}
+@font-face{
+	font-family:BirdsofParadise; 
+	src:url(BirdsofParadise.ttf);
+}
