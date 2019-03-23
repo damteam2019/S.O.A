@@ -15,5 +15,5 @@ A este repositorio le faltan las imagenes por lo que aunque basta con descargár
 su resultado puede verse afectado.
 
 ## Link sobre SOA
-[CodeTime](https://es.wikipedia.org/wiki/Sons_of_Anarchy)
+[Hijos de la Anarquía](https://es.wikipedia.org/wiki/Sons_of_Anarchy)
 
